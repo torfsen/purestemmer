@@ -65,10 +65,10 @@ def _load_algorithms():
         if name.startswith('__'):
             continue
         parts = name.split('_')
-        module_name = 'purestemmer.algorithms.' + parts[0]
+        module_name = 'purestemmer.algorithms.' + name
         algorithms[unicode(name)] = importlib.import_module(module_name)
         for part in parts[1:]:
-            aliases[part] = parts[0]
+            aliases[unicode(part)] = name
     return algorithms, aliases
 
 _algorithms, _aliases = _load_algorithms()
