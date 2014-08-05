@@ -1,0 +1,6 @@
+Florian Brucker -- primary author and maintainer
+
+Richard Boulton -- author of pystemmer, from which the API and some
+                   code was taken
+
+Martin Porter -- author of the stemming algorithms
