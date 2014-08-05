@@ -42,7 +42,7 @@ Differences between *purestemmer* and *pystemmer*
 
 License
 =======
-*pystemmer* itself is covered by the `MIT License`_. The underlying
+*purestemmer* itself is covered by the `MIT License`_. The underlying
 Snowball algorithms are covered by the `BSD-3 License`_. Please see the
 ``LICENSE`` file for details.
 
