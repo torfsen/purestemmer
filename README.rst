@@ -14,6 +14,15 @@ Snowball language to Python via sbl2py_.
 .. _sbl2py: https://pypi.python.org/pypi/sbl2py
 
 
+Installation
+============
+Installing *purestemmer* is easy using pip_::
+
+    pip install purestemmer
+
+.. _pip: http://pip.readthedocs.org/en/latest/index.html
+
+
 Usage
 =====
 Usually, you'll prefer to use the *pystemmer* module whenever that is

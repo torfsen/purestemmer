@@ -1,4 +1,6 @@
+dist/
 env/
+purestemmer.egg-info/
 
 purestemmer/algorithms/*.py
 !purestemmer/algorithms/__index__.py
