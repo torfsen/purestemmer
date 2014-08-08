@@ -66,9 +66,9 @@ def _load_algorithms():
             continue
         parts = name.split('_')
         module_name = 'purestemmer.algorithms.' + name
-        algorithms[unicode(name)] = importlib.import_module(module_name)
+        algorithms[unicode(parts[0])] = importlib.import_module(module_name)
         for part in parts[1:]:
-            aliases[unicode(part)] = name
+            aliases[unicode(part)] = parts[0]
     return algorithms, aliases
 
 _algorithms, _aliases = _load_algorithms()
