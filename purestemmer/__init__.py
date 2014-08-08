@@ -44,7 +44,7 @@ import os.path
 
 
 __all__ = ['algorithms', 'Stemmer']
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 __docformat__ = 'restructuredtext en'
 
 
